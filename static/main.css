@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#body_ru{
+    display: none;
+}
+.container{
+    width: 940px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    color: rgb(75, 74, 74);
+}
+h3{
+    font-size:xx-large;
+}
+header{
+    height: 100vh;
+}
+nav, .header{
+    display: flex;
+    align-items: center;
+    height: 15%;
+}
+nav, .menu{
+    width: 100%;
+}
+.header{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.header span{
+    display: flex;
+    flex-direction: column;
+}
+.active{
+    color: black;
+    font-weight: bold;
+}
+.banner{
+    position: relative;
+    margin: 5% 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#about-me, #skills, #contacts{
+    height: 50vh;
+}
+#portfolio{
+    height: 200vh;
+}
+section .container, footer .container{
+    height: 100%;
+    justify-content: space-around;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about-me, #portfolio{
+    width: 100%;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+}
+.container ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills_image{
+    width: 90px;
+    height: 90px;
+}
+.portfolio_block{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.portfolio_image{
+    width: 100%;
+}
+button{
+    background-color: black;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+}
+button a{
+    color: white;
+}
+#contacts ul{
+    width: 30%;
+    margin-bottom: 2%;
+}
+#contacts li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#contacts p{
+    margin-top: 5%;
+}
+
+#start{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 100%;
+    position: sticky;
+    bottom: 0;
+    margin-left: 90%;
+    z-index: 1;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
