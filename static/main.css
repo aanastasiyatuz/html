@@ -23,6 +23,13 @@ body{
     flex-direction: column;
     align-items: center;
 }
+nav{
+    position: fixed;
+    z-index: 4;
+}
+b{
+    color: white;
+}
 p{
     color: rgb(75, 74, 74);
 }
@@ -30,15 +37,26 @@ h3{
     font-size:xx-large;
 }
 header{
+    width:100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 nav, .header{
     display: flex;
     align-items: center;
-    height: 15%;
+    height: 30%;
 }
-nav, .menu{
+.menu{
     width: 100%;
+    height: 50px;
+    background-color: #140f0fe0;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    box-shadow: 0 0 5px 5px rgba(6, 0, 36, 0.3);
 }
 .header{
     width:100%;
@@ -46,9 +64,12 @@ nav, .menu{
     justify-content: space-between;
     align-items: flex-end;
 }
-.header span{
+.lang{
     display: flex;
     flex-direction: column;
+}
+.span__lan{
+    color: pointer;
 }
 .active{
     color: black;
@@ -87,9 +108,10 @@ section .container, footer .container{
 }
 .container ul{
     width: 100%;
+    height: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 .skills{
     display: flex;
