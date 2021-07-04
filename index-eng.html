@@ -13,16 +13,15 @@
     <header id="home">
         <div class="menu"></div>
         <div class="container">
+            <div class="menu_under"></div>
             <nav>
-                <div class="container">
-                    <ul>
-                        <li><a href="#home"><b>Home</b></a></li>
-                        <li><a href="#about-me"><b>About me</b></a></li>
-                        <li><a href="#skills"><b>Skills</b></a></li>
-                        <li><a href="#portfolio"><b>Portfolio</b></a></li>
-                        <li><a href="#contacts"><b>Contacts</b></a></li>
-                    </ul>
-                </div>
+                <ul class="menu_ul">
+                    <li><a href="#home"><b>Home</b></a></li>
+                    <li><a href="#about-me"><b>About me</b></a></li>
+                    <li><a href="#skills"><b>Skills</b></a></li>
+                    <li><a href="#portfolio"><b>Portfolio</b></a></li>
+                    <li><a href="#contacts"><b>Contacts</b></a></li>
+                </ul>
             </nav>
             <div class="header">
                 <h2>Anastasiya Tuz</h2>
@@ -38,7 +37,7 @@
     </header>
     
     <section id="about-me">
-        <div class="container">
+        <div class="inner_container">
             <h3>About me</h3>
             <div class="text">
                 <p>Hi, I'm Nastya - full stack developer. Make backend using Python and DjangoREST. Make frontend using JavaScript and React.</p>
@@ -49,46 +48,36 @@
     </section>
     
     <section id="skills">
-        <div class="container">
+        <div class="inner_container">
             <h3>Skills</h3>
             <p>Languages and libraries i use</p>
-            <ul>
-                <li>
-                    <div class="skills">
-                        <img src="./img/python.png" alt="" class="skills_image">
-                        <p>Python</p>
-                    </div>
+            <ul class="skills_ul">
+                <li class="skills">
+                    <img src="./img/python.png" alt="" class="skills_image">
+                    <p>Python</p>
                 </li>
-                <li>
-                    <div class="skills">
-                        <img src="./img/js.png" alt="" class="skills_image">
-                        <p>JavaScript</p>
-                    </div>
+                <li class="skills">
+                    <img src="./img/js.png" alt="" class="skills_image">
+                    <p>JavaScript</p>
                 </li>
-                <li>
-                    <div class="skills">
+                <li class="skills">
                         <img src="./img/django.png" alt="" style="height: 70px;">
                         <p>Django</p>
-                    </div>
                 </li>
-                <li>
-                    <div class="skills">
-                        <img src="./img/react.png" alt="" class="skills_image">
-                        <p>React</p>
-                    </div>
+                <li class="skills">
+                    <img src="./img/react.png" alt="" class="skills_image">
+                    <p>React</p>
                 </li>
-                <li>
-                    <div class="skills">
-                        <img src="./img/postgresql.png" alt="" class="skills_image">
-                        <p>PostgreSQL</p>
-                    </div>
+                <li class="skills">
+                    <img src="./img/postgresql.png" alt="" class="skills_image">
+                    <p>PostgreSQL</p>
                 </li>
             </ul>
         </div>
     </section>
     
     <section id="portfolio">
-        <div class="container">
+        <div class="inner_container">
             <h3>Portfolio</h3>
             <div class="portfolio_block">
                 <img src="./img/front.jpg" alt="" class="portfolio_image">
@@ -104,14 +93,14 @@
     </section>
     
     <footer id="contacts">
-        <div class="container">
+        <div class="inner_container">
             <h3>Contacts</h3>
             <div class="text">
                 <p>Want to know more or just chat?</p>
                 <p>You are welcome!</p>
             </div>
             <button><a href="">Send message</a></button>
-            <ul>
+            <ul class="contacts_ul">
                 <li>
                     <i class="fab fa-github fa-2x"></i>
                     <p>Github</p>
